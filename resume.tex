@@ -1,0 +1,218 @@
+%-------------------------
+% Resume in Overleaf LaTeX
+% Author : Joseph (Joe) Lollo
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Joseph (Joe) Lollo, MLIS} \\ \vspace{1pt}
+    \small 425-623-5253 $|$ \href{mailto:joelollo880@gmail.com}{\underline{joelollo880@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/joelollo21}{\underline{linkedin.com/in/joelollo21}} $|$
+    \href{https://sites.google.com/view/joe-lollo-mlis}{\underline{sites.google.com/joe-lollo-mlis}}
+\end{center}
+
+
+%-----------SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Interpersonal Skills}{: Community Engagement and Outreach, User Research, Curriculum Development, Project Management, Library Reference, Customer Service, Cultural Humility, Event Planning, Social Media.} \\
+     \textbf{Technical Skills}{: Microsoft Office, Adobe Creative Suite, Canvas, Camtasia, WordPress, Ex Libris Alma, Omeka, HTML, CSS, JavaScript, Canva, Figma.} \\
+    }}
+ \end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Washington}{Seattle, WA}
+      {Master of Library and Information Science}{2024}
+    \resumeSubheading
+      {University of Washington Bothell}{Bothell, WA}
+      {Bachelor of Arts in English Literature and Media Studies}{2022}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Contract Research and Instruction Librarian}{Sep. -- Dec. 2024}
+      {Seattle University}{Seattle, WA}
+      \resumeItemListStart
+        \resumeItem{Provided research assistance to students, faculty, and staff at the Research Help desk and in online consultations.}
+        \resumeItem{Taught database and web searching to 9 undergraduate classes, with individualized lesson plans and assessments.}
+        \resumeItem{Designed posters and fliers promoting library services, using Adobe Illustrator and Photoshop.}
+        \resumeItem{Created and edited video tutorials with Camtasia, sharing library resources and research tools with the public.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Graduate Student Specialist, Libraries Instructional Design (LibID)}{Aug. 2022 -- Aug. 2024}
+      {University of Washington Libraries}{Seattle, WA}
+      \resumeItemListStart
+        \resumeItem{Collaborate on the design and facilitation of 10+ library outreach workshops, introducing digital technologies and library resources to the campus community.}
+        \resumeItem{Developed engaging digital content for the LibID team's Canvas and WordPress pages, including blogs, video tutorials, and infographics.}
+        \resumeItem{Provided 1-on-1 mentorship to workshop participants to meet personal and professional goals.}
+        \resumeItem{Created and taught original workshop on \emph{Web Design with WordPress} to 22 students in Winter quarter 2024.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Capstone Design Intern, \emph{The Misinformation Play Pack}}{Dec. 2023 -- May 2024}
+      {University of Washington, Game Research Group}{Seattle, WA}
+      \resumeItemListStart
+        \resumeItem{Collaborated on the design of an online curriculum for public libraries and K-12 educators to teach about misinformation and digital equity.}
+        \resumeItem{Developed 50+ digital learning artifacts, including lesson plans, activity printouts, PowerPoint slides, and videos.}
+        \resumeItem{Partnered with the Seattle Public Library to conduct research with 10 teen users, collecting feedback on curriculum strengths and areas of improvement.}
+        \resumeItem{Researched game-based learning to enhance curriculum flexibility and develop 8-page framing document.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Peer Academic Advisor}{June 2021 -- Aug. 2022}
+      {University of Washington Bothell}{Bothell, WA}
+      \resumeItemListStart
+        \resumeItem{Counseled 200+ undergraduate students on majors, classes, and study habits from a peer-to-peer perspective.}
+        \resumeItem{Coordinated 3 outreach events introducing first-year and transfer students to campus resources.}
+        \resumeItem{Conducted presentations on academic planning at 5 New Student Orientations, improving new students' familiarity with university policies and requirements.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\emph{Baloney Detectives}} $|$ \emph{UX Designer, UW class project}}{Jan. -- March 2023}
+          \resumeItemListStart
+            \resumeItem{Designed interactive game mimicking the psychological effects on health misinformation and social media, on a cross-functional team of 4.}
+            \resumeItem{Interviewed 5 direct stakeholders to solicit feedback on learning outcomes and desired game features.}
+            \resumeItem{Used Twine (HTML/CSS), and itch.io to develop high-fidelity prototype using stakeholder feedback.}
+            \resumeItem{Facilitated learning experience using the game for 30+ high school students at UW's Misinfo Day conference.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+
+
+%-------------------------------------------
+\end{document}
